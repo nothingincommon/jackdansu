@@ -1,0 +1,8 @@
+{
+	"name": "jack-world-tour-2k14",
+	"description": "The greatest Web site of all time.",
+	"version": "0.0.0",
+	"dependencies": {
+		"jquery": "~2.0.3"
+	}
+}

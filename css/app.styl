@@ -1,0 +1,79 @@
+newYork = #f00
+edmonton = #ff7300
+vancouver = #ff2CA7
+paris = #fff100
+
+@import 'nib'
+
+global-reset()
+
+html
+	width 100%
+	height 100%
+	box-sizing border-box
+
+body
+	width 100%
+	height 100%
+	padding 0
+	margin 0
+	box-sizing border-box
+
+.logo
+	position fixed
+	z-index 999
+	top 50%
+	left 50%
+	transform translate(-50%,-50%)
+
+section
+	width 100%
+	height 100%
+	z-index 100
+	box-sizing border-box
+	overflow-x hidden
+	white-space nowrap
+	padding 20px 0 20px 0
+
+	img
+		height 100%
+		animation marquee 10s linear infinite;
+
+.ny-img
+	animation-delay 2s
+.edmonton-img
+	animation-delay 4s
+.vancouver
+	animation-delay 6s
+.paris
+	animation-delay 8s
+
+@keyframes marquee {
+  from {
+    transform translateX(0)
+  }
+  to {
+    transform translateX(-100%)
+  }
+}
+
+.mast
+	background #fff
+
+.new-york
+	background newYork
+
+.edmonton
+	background edmonton
+
+.vancouver
+	background vancouver
+.paris
+	background paris
+
+.sc
+	position fixed
+	bottom 5%
+	left 5%
+	z-index 999
+	width 30%
