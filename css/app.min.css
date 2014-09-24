@@ -8,11 +8,12 @@ html{width:100%;height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border
 body{width:100%;height:100%;padding:0;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .logo{position:fixed;z-index:999;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 section{width:100%;height:100%;z-index:100;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-x:hidden;white-space:nowrap;padding:20px 0 20px 0;}
-section img{height:100%;-webkit-animation:marquee 10s linear infinite;-moz-animation:marquee 10s linear infinite;-o-animation:marquee 10s linear infinite;-ms-animation:marquee 10s linear infinite;animation:marquee 10s linear infinite}
-.ny-img{-webkit-animation-delay:2s;-moz-animation-delay:2s;-o-animation-delay:2s;-ms-animation-delay:2s;animation-delay:2s}
-.edmonton-img{-webkit-animation-delay:4s;-moz-animation-delay:4s;-o-animation-delay:4s;-ms-animation-delay:4s;animation-delay:4s}
-.vancouver{-webkit-animation-delay:6s;-moz-animation-delay:6s;-o-animation-delay:6s;-ms-animation-delay:6s;animation-delay:6s}
-.paris{-webkit-animation-delay:8s;-moz-animation-delay:8s;-o-animation-delay:8s;-ms-animation-delay:8s;animation-delay:8s}
+section img{height:100%}
+.jack-img{-webkit-animation:marquee 20s linear infinite;-moz-animation:marquee 20s linear infinite;-o-animation:marquee 20s linear infinite;-ms-animation:marquee 20s linear infinite;animation:marquee 20s linear infinite}
+.ny-img{-webkit-animation-delay:2s;-moz-animation-delay:2s;-o-animation-delay:2s;-ms-animation-delay:2s;animation-delay:2s;-webkit-animation:marquee 7s linear infinite;-moz-animation:marquee 7s linear infinite;-o-animation:marquee 7s linear infinite;-ms-animation:marquee 7s linear infinite;animation:marquee 7s linear infinite}
+.edmonton-img{-webkit-animation-delay:4s;-moz-animation-delay:4s;-o-animation-delay:4s;-ms-animation-delay:4s;animation-delay:4s;-webkit-animation:marquee 10s linear infinite;-moz-animation:marquee 10s linear infinite;-o-animation:marquee 10s linear infinite;-ms-animation:marquee 10s linear infinite;animation:marquee 10s linear infinite}
+.vancouver-img{-webkit-animation-delay:6s;-moz-animation-delay:6s;-o-animation-delay:6s;-ms-animation-delay:6s;animation-delay:6s;-webkit-animation:marquee 7s linear infinite;-moz-animation:marquee 7s linear infinite;-o-animation:marquee 7s linear infinite;-ms-animation:marquee 7s linear infinite;animation:marquee 7s linear infinite}
+.paris-img{-webkit-animation-delay:8s;-moz-animation-delay:8s;-o-animation-delay:8s;-ms-animation-delay:8s;animation-delay:8s;-webkit-animation:marquee 10s linear infinite;-moz-animation:marquee 10s linear infinite;-o-animation:marquee 10s linear infinite;-ms-animation:marquee 10s linear infinite;animation:marquee 10s linear infinite}
 .mast{background:#fff}
 .new-york{background:#f00}
 .edmonton{background:#ff7300}
