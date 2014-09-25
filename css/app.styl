@@ -25,6 +25,11 @@ body
 	top 50%
 	left 50%
 	transform translate(-50%,-50%)
+	text-align center
+
+	img
+		@media (min-width: 320px) and (max-width: 480px)
+			width 60%
 
 section
 	width 100%
@@ -34,8 +39,7 @@ section
 	overflow-x hidden
 	white-space nowrap
 	padding 20px 0 20px 0
-	&:hover
-		cursor pointer
+	cursor pointer
 
 	img
 		height 100%
