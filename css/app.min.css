@@ -16,7 +16,7 @@ section img{height:100%}
 .vancouver-img{-webkit-animation-delay:6s;-moz-animation-delay:6s;-o-animation-delay:6s;-ms-animation-delay:6s;animation-delay:6s;-webkit-animation:marquee 7s linear infinite;-moz-animation:marquee 7s linear infinite;-o-animation:marquee 7s linear infinite;-ms-animation:marquee 7s linear infinite;animation:marquee 7s linear infinite}
 .paris-img{-webkit-animation-delay:8s;-moz-animation-delay:8s;-o-animation-delay:8s;-ms-animation-delay:8s;animation-delay:8s;-webkit-animation:marquee 10s linear infinite;-moz-animation:marquee 10s linear infinite;-o-animation:marquee 10s linear infinite;-ms-animation:marquee 10s linear infinite;animation:marquee 10s linear infinite}
 .mast{background:#fff}
-.new-york{background:#f00}
+.new-york{background:#42fa1c}
 .edmonton{background:#ff7300}
 .vancouver{background:#ff2ca7}
 .paris{background:#fff100}
